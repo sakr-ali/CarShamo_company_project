@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="ar" dir="rtl">
+<head>
+<meta http-equiv="refresh" content="5">
+<meta charset="utf-8"/>
+<title>Ford - شركة الصقر</title>
+<link href="css/style.css" rel="stylesheet"/>
+</head>
+
+<body class="page">
+
+<header class="header">
+  <!-- اسم الشركة الثانية  والتنقل -->
+<h1>🚘 سيارات Ford</h1>
+<p>اختر السيارة التي تناسبك</p>
+ <nav>
+        <ul>
+            <li><a href="home.html">الصفحة الرئيسية</a></li>
+            <li><a href="index.html">تسجيل الدخول</a></li>
+            <li><a href="cars.html"> شركات السيارات</a></li>
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main">
+  <!-- انواع السيارات  المتوفرة وعرض الشركات الاخرى  -->
+<section class="cars-grid">
+<div class="car-card">
+<img alt="Ford Mustang" src="img/ford1.jpg"/>
+<h3>Ford Mustang</h3>
+<p>السعر: 120,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData(' Ford Mustang', '120,000 $', 'img/ford1.jpg')">شراء</a>
+</div>
+
+<div class="car-card">
+<img alt="Ford Explorer" src="img/ford2.jpg"/>
+<h3>Ford Explorer</h3>
+<p>السعر: 110,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData(' Ford Explorer', '110,000 $', 'img/ford2.jpg')">شراء</a>
+
+</div>
+
+<div class="car-card">
+<img alt="Ford F-150" src="img/ford3.jpg"/>
+<h3>Ford F-150</h3>
+<p>السعر: 130,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData(' Ford F-150', '130,000 $', 'img/ford3.jpg')">شراء</a>
+</div>
+
+<div class="car-card">
+<img alt="Ford Focus" src="img/ford4.jpg"/>
+<h3>Ford Focus</h3>
+<p>السعر: 70,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData(' Ford Focus', '70,000 $', 'img/ford4.jpg')">شراء</a>
+</div>
+
+<div class="car-card">
+<img alt="Ford Escape" src="img/ford5.jpg"/>
+<h3>Ford Escape</h3>
+<p>السعر: 95,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData(' Ford Escape', '95,000 $', 'img/ford5.jpg')">شراء</a>
+</div>
+
+<div class="car-card">
+<img alt="Ford Edge" src="img/ford6.jpg"/>
+<h3>Ford Edge</h3>
+<p>السعر: 105,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData(' Ford Edge', '105,000 $', 'img/ford6.jpg')">شراء</a>
+</div>
+</section>
+
+<section class="other-companies">
+<h2>شركات أخرى</h2>
+<div class="companies-links">
+<a href="company1.html"><img alt="Toyota" src="img/toyota-logo.png"/><br/>Toyota</a>
+<a href="company3.html"><img alt="Mercedes" src="img/mercedes-logo.png"/><br/>Mercedes</a>
+<a href="company4.html"><img alt="BMW" src="img/bmw-logo.png"/><br/>BMW</a>
+<a href="company5.html"><img alt="Hyundai" src="img/hyundai-logo.png"/><br/>Hyundai</a>
+</div>
+</section>
+</main>
+
+<footer class="footer">
+    <!-- تذييل الصفحة -->
+    <p>© جميع الحقوق محفوظة لشركة الصقر</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

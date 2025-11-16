@@ -1,0 +1,368 @@
+/* *********************/
+/* ##[تنسيقات عامة ]##*/
+/* *********************/
+/* التحكم في طريقة عرض الصفحات للمشروع كامل */
+.page {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  height: 100%;
+  background-color: #ffffff;
+  gap: 10px;
+}
+/* تنسيق الراس والتذيل لكل صفحة في المشروع */
+.header,
+.footer {
+  text-align: center;
+  background: #7f3a02;
+  color: white;
+  padding: 40px 40px 0px 0px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+nav li {
+  margin: 0 1em;
+}
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 19px #000000;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* *********************************/
+/* ##[تنسيق فورم تسجيل الدخول]## */
+/* *********************************/
+/* form-main تنسيق مشترك للصفحات التي تطلب ادخال بيانات */
+.form-main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  background-color: #ffffff;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.form {
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 520px;
+  box-shadow: 0 0 15px rgba(219, 0, 0, 0.5);
+  border-radius: 20px 1px;
+  background-color: #566500;
+  padding: 35px;
+  color: #370089;
+}
+.form input,textarea {
+  display: block;
+  margin: 20px ;
+  padding: 4px;
+  width: 250px;
+  height: 22px;
+  border-radius: 15px 1px;
+}
+.form textarea{
+  height: 70px;
+}
+.form button {
+  padding: 10px 20px;
+  margin: 20px 20px 0px 20px;
+  background-color: #000000;
+  border-radius: 1px 30px;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+  color: rgb(51, 255, 0);
+}
+.form button:hover {
+  padding: 10px 20px;
+  margin: 20px 20px 0px 20px;
+  background-color: #00ff0d;
+  border-radius: 30px 1px;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+
+/* *********************************/
+/* ##[تنسيقات الصفحة الرئسية ]## */
+/* *********************************/
+.features {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 20px;
+}
+.feature,
+.hero {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  flex: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* **********************************/
+/* ##[تنسيقات صفحة عرض الشركات]## */
+/* **********************************/
+.companies-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 10px auto;
+  height: 250px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+.company-card h3 {
+  margin: 10px auto;
+  color: #ffffff;
+}
+.company-card img {
+  width: 150px;
+  height: 100px;
+  background-color: rgb(255, 0, 0);
+  padding: 10px;
+  border-radius: 30px 1px;
+  box-shadow: 0 0 8px rgb(255, 255, 255);
+}
+
+
+
+/* ************************************/
+/* ##[ تنسيق مشترك للخمس الشركات ]##*/
+/* ************************************/
+.cars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+  padding: 2em;
+  background-color: white;
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.6);
+}
+.car-card {
+  background-color: white;
+  border-radius: 1px 30px;
+  box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.6);
+  padding: 1em;
+  width: 350px;
+  text-align: center;
+}
+.car-card:hover {
+  transform: translateY(-8px);
+}
+.car-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.car-card .btn {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: hsl(210, 100%, 20%);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 30px 1px;
+  text-decoration: none;
+}
+.car-card .btn:hover {
+  background-color: #03ff07;
+  color: rgb(0, 0, 0);
+  border-radius: 1px 20px;
+  padding: 16px;
+}
+.other-companies {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  background-color: black;
+  gap: 10px;
+  box-shadow: 0 0px 30px rgba(255, 0, 0, 0.4);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+.other-companies h2{
+  background-color: rgb(241, 201, 0);
+  width: 150px;
+  height: 40px;
+  color: #370089;
+  padding: 30px 10px 0px 10px;
+  border-radius: 60px;
+  font-size: large;
+  font-weight: 900;
+  text-decoration: none;
+}
+.other-companies .companies-links {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  justify-content: space-around;
+}
+.companies-links img {
+  border-radius: 30px 1px;
+  width: 150px;
+  height: 120px;
+}
+.companies-links a {
+  color: white;
+  background-color: #ff0000;
+  text-decoration: none;
+}
+.companies-links a:hover {
+  color: #000000;
+  background-color: #03ff07;
+  text-decoration: underline;
+}
+
+
+/* ******************************/
+/* تنسيقات صفحة اتمام الشراء  */
+/* ******************************/
+.car-details {
+  text-align: center;
+  padding: 20px;
+}
+.car-details img {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
+/* ********************************/
+/* ##[تنسيق صفحة من  نحن]##*/
+/* *******************************/
+.about-us{
+  text-align: center;
+}
+.about-us h1{
+  font-family: Arial, Helvetica, sans-serif;
+color: #370089;
+font-size: 40px;
+font-weight: 900;
+}
+.about-us p {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 900;
+font-size: 25px;
+}
+/* ========================== */
+/* ##[تنسيقات الجوال]## */
+/* ========================== */
+@media (max-width: 768px) {
+  
+/* تنسيق الراس والتذيل لكل صفحة في المشروع */
+
+  .header,
+  .footer {
+    padding: 20px 20px 0 0;
+    font-size: 14px;
+  }
+
+  nav ul {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 10px auto;
+  }
+
+  .form {
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  .form input,
+  .form textarea {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .form button {
+    font-size: medium;
+    padding: 8px 16px;
+  }
+/* *********************************/
+/* ##[تنسيقات الصفحة الرئسية ]## */
+/* *********************************/
+  .features {
+    flex-direction: row;
+    padding: 10px;
+  }
+/* **********************************/
+/* ##[تنسيقات صفحة عرض الشركات]## */
+/* **********************************/
+  .companies-grid {
+    flex-direction: row;
+    gap: 20px;
+    height: auto;
+  }
+/* ************************************/
+/* ##[ تنسيق مشترك للخمس الشركات ]##*/
+/* ************************************/
+  .cars-grid {
+    grid-template-columns: 230px;
+    padding: 1em;
+  }
+
+  .car-card {
+    width: 100%;
+  }
+
+  .car-card .btn {
+    padding: 10px 16px;
+  }
+
+  .other-companies .companies-links {
+    flex-direction: row;
+    gap: 10px;
+  }
+/* ************************************/
+/* ##[ تنسيق للشركات الاخرى ]##*/
+/* ************************************/
+  .companies-links img {
+    width: 80%;
+    height: auto;
+  }
+
+  .other-companies h2 {
+    width: auto;
+    font-size: medium;
+    padding: 15px 10px;
+  }
+
+  .car-details img {
+    width: 90%;
+  }
+/* ********************************/
+/* ##[تنسيق صفحة من  نحن]##*/
+/* *******************************/
+  .about-us h1 {
+    font-size: 28px;
+  }
+
+  .about-us p {
+    font-size: 18px;
+  }
+}

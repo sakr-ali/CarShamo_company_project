@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <!-- <meta content="5" http-equiv="refresh" /> -->
+  <meta charset="utf-8"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تسجيل الدخول - شركة الصقر</title>
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body class="page">
+
+<header class="header">
+    <!-- الاسم والتنقل -->
+    <h1> 🚗شركة الصقر للسيارات</h1>
+    <nav>
+        <ul>
+            <li><a href="home.html">الصفحة الرئيسية</a></li>
+            <li><a href="cars.html"> شركات السيارات</a></li>
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main  class="form-main">
+  <!--  قسم التسجيل لبيانات المستخدم -->
+  <div class="form" onsubmit="login(event)">
+    <h2>تسجيل الدخول</h2>
+    <form id="loginForm">
+      <label for="username"></label>
+      <input id="username" name="username" required="" type="text" placeholder="Enter your name" />
+      <br />
+      <label for="password"></label>
+      <input id="password" name="password" required="" type="password" placeholder="Enter your password" />
+      <br />
+      <button type="submit">تسجيل الدخول</button>
+    </form>
+  </div>
+  </main>
+
+  <footer class="footer">
+        <!-- تذييل الصفحة -->
+    <p>© جميع الحقوق محفوظة لشركة الصقر</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

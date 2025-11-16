@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"/>
+<title>Mercedes - شركة الصقر</title>
+<link href="css/style.css" rel="stylesheet"/>
+<meta http-equiv="refresh" content="5">
+</head>
+
+<body class="page">
+
+<header class="header">
+  <!--  اسم الشركة الثالثة والتنقل -->
+<h1>🚘 سيارات Mercedes</h1>
+<p>اختر السيارة التي تناسبك</p>
+ <nav>
+        <ul>
+            <li><a href="home.html">الصفحة الرئيسية</a></li>
+            <li><a href="index.html">تسجيل الدخول</a></li>
+            <li><a href="cars.html"> شركات السيارات</a></li>
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main">
+    <!-- انواع السيارات  المتوفرة وعرض الشركات الاخرى  -->
+<section class="cars-grid">
+<div class="car-card">
+<img alt="Mercedes A-Class" src="img/mercedes1.jpg"/>
+<h3>Mercedes A-Class</h3>
+<p>السعر: 140,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData(' Mercedes A-Class', '140,000 $', 'img/mercedes1.jpg')">شراء</a>
+</div>
+
+<div class="car-card">
+<img alt="Mercedes C-Class" src="img/mercedes2.jpg"/>
+<h3>Mercedes C-Class</h3>
+<p>السعر: 160,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData(' Mercedes C-Class', '160,000 $', 'img/mercedes2.jpg')">شراء</a>
+</div>
+
+<div class="car-card">
+<img alt="Mercedes E-Class" src="img/mercedes3.jpg"/>
+<h3>Mercedes E-Class</h3>
+<p>السعر: 180,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData(' Mercedes E-Class', '180,000 $', 'img/mercedes3.jpg')">شراء</a>
+</div>
+
+<div class="car-card">
+<img alt="Mercedes GLC" src="img/mercedes4.jpg"/>
+<h3>Mercedes GLC</h3>
+<p>السعر: 200,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData(' Mercedes GLC', '200,000 $', 'img/mercedes4.jpg')">شراء</a>
+</div>
+
+<div class="car-card">
+<img alt="Mercedes GLE" src="img/mercedes5.jpg"/>
+<h3>Mercedes GLE</h3>
+<p>السعر: 250,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData(' Mercedes GLE', '250,000 $', 'img/mercedes5.jpg')">شراء</a>
+</div>
+
+<div class="car-card">
+<img alt="Mercedes S-Class" src="img/mercedes6.jpg"/>
+<h3>Mercedes S-Class</h3>
+<p>السعر: 350,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData(' Mercedes S-Class', '350,000 $', 'img/mercedes6.jpg')">شراء</a>
+</div>
+</section>
+
+<section class="other-companies">
+<h2>شركات أخرى</h2>
+<div class="companies-links">
+<a href="company1.html"><img alt="Toyota" src="img/toyota-logo.png"/><br/>Toyota</a>
+<a href="company2.html"><img alt="Ford" src="img/ford-logo.png"/><br/>Ford</a>
+<a href="company4.html"><img alt="BMW" src="img/bmw-logo.png"/><br/>BMW</a>
+<a href="company5.html"><img alt="Hyundai" src="img/hyundai-logo.png"/><br/>hyundai</a>
+</div>
+</section>
+</main>
+
+<footer class="footer">
+    <!-- تذييل الصفحة -->
+    <p>© جميع الحقوق محفوظة لشركة الصقر</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

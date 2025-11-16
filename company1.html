@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="ar" dir="rtl">
+<head>
+<meta http-equiv="refresh" content="5">
+<meta charset="utf-8"/>
+<title>Toyota - شركة الصقر</title>
+<link href="css/style.css" rel="stylesheet"/>
+</head>
+
+<body class="page">
+
+<header class="header">
+  <!--  اسم الشركة الاولى والتنقل -->
+<h1>🚘 سيارات Toyota</h1>
+<p>اختر السيارة التي تناسبك</p>
+    <nav>
+        <ul>
+            <li><a href="home.html">الصفحة الرئيسية</a></li>
+            <li><a href="index.html">تسجيل الدخول</a></li>
+            <li><a href="cars.html"> شركات السيارات</a></li>
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main">
+<!-- انواع السيارات المتوفرة  وعرض الشركات الاخرى -->
+<section class="cars-grid">
+<div class="car-card">
+<img alt="Toyota Corolla" src="img/toyota1.jpg"/>
+<h3>Toyota Corolla</h3>
+<p>السعر: 75,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData('Toyota Corolla', '75,000 $', 'img/toyota1.jpg')">شراء</a>
+</div>
+
+<div class="car-card">
+<img alt="Toyota Camry" src="img/toyota2.jpg"/>
+<h3>Toyota Camry</h3>
+<p>السعر: 85,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData('Toyota Camry', '85,000 $', 'img/toyota2.jpg')">شراء</a>
+</div>
+
+<div class="car-card">
+<img alt="Toyota RAV4" src="img/toyota3.jpg"/>
+<h3>Toyota RAV4</h3>
+<p>السعر: 95,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData('Toyota RAV4', '95,000 $', 'img/toyota3.jpg')">شراء</a>
+</div>
+
+<div class="car-card">
+<img alt="Toyota Hilux" src="img/toyota4.jpg"/>
+<h3>Toyota Hilux</h3>
+<p>السعر: 110,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData('Toyota Hilux', '110,000 $', 'img/toyota4.jpg')">شراء</a>
+</div>
+
+<div class="car-card">
+<img alt="Toyota Land Cruiser" src="img/toyota5.jpg"/>
+<h3>Toyota Land Cruiser</h3>
+<p>السعر: 200,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData('Toyota Land Cruiser', '200,000 $', 'img/toyota5.jpg')">شراء</a>
+</div>
+
+<div class="car-card">
+<img alt="Toyota Yaris" src="img/toyota6.jpg"/>
+<h3>Toyota Yaris</h3>
+<p>السعر: 60,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData('Toyota Yaris', '60,000 $', 'img/toyota6.jpg')">شراء</a>
+</div>
+</section>
+
+<section class="other-companies">
+  <!-- عرض بقية الشركات  -->
+<h2>شركات أخرى</h2>
+<div class="companies-links">
+<a href="company2.html"><img alt="Ford" src="img/ford-logo.png"/> <br/> Ford</a>
+<a href="company3.html"><img alt="Mercedes" src="img/mercedes-logo.png"/><br/> Mercedes</a>
+<a href="company4.html"><img alt="BMW" src="img/bmw-logo.png"/><br/> Bmw</a>
+<a href="company5.html"><img alt="Hyundai" src="img/hyundai-logo.png"/><br/> hyundai</a>
+</div>
+</section>
+</main>
+
+<footer class="footer">
+    <!-- تذييل الصفحة -->
+    <p>© جميع الحقوق محفوظة لشركة الصقر</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"/>
+<title>BMW - شركة الصقر</title>
+<link href="css/style.css" rel="stylesheet"/>
+<meta http-equiv="refresh" content="5">
+</head>
+
+<body class="page">
+
+<header class="header">
+  <!-- اسم الشركة الرابعة والتنقل -->
+<h1>🚘 سيارات BMW</h1>
+<p>اختر السيارة التي تناسبك</p>
+ <nav>
+        <ul>
+            <li><a href="home.html">الصفحة الرئيسية</a></li>
+            <li><a href="index.html">تسجيل الدخول</a></li>
+            <li><a href="cars.html"> شركات السيارات</a></li>
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main">
+    <!-- انواع السيارات  المتوفرة وعرض الشركات الاخرى  -->
+<section class="cars-grid">
+<div class="car-card">
+<img alt="BMW 3 Series" src="img/bmw1.jpg"/>
+<h3>BMW 3 Series</h3>
+<p>السعر: 150,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData('BMW 3 Series', '150,000 $', 'img/bmw1.jpg')">شراء</a>
+</div>
+<div class="car-card">
+<img alt="BMW 5 Series" src="img/bmw2.jpg"/>
+<h3>BMW 5 Series</h3>
+<p>السعر: 180,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData('BMW 5 Series', '180,000 $', 'img/bmw2.jpg')">شراء</a>
+</div>
+<div class="car-card">
+<img alt="BMW X3" src="img/bmw3.jpg"/>
+<h3>BMW X3</h3>
+<p>السعر: 190,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData('BMW  X3 ', '190,000 $', 'img/bmw3.jpg')">شراء</a>
+</div>
+<div class="car-card">
+<img alt="BMW X5" src="img/bmw4.jpg"/>
+<h3>BMW X5</h3>
+<p>السعر: 250,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData('BMW X3 ', '250,000 $', 'img/bmw4.jpg')">شراء</a>
+</div>
+<div class="car-card">
+<img alt="BMW i8" src="img/bmw5.jpg"/>
+<h3>BMW i8</h3>
+<p>السعر: 400,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData('BMW i8', '400,000 $', 'img/bmw5.jpg')">شراء</a>
+</div>
+<div class="car-card">
+<img alt="BMW M3" src="img/bmw6.jpg"/>
+<h3>BMW M3</h3>
+<p>السعر: 350,000 $</p>
+<a class="btn" href="car-details.html" onclick="saveCarData('BMW M3 ', '350,000 $', 'img/bmw6.jpg')">شراء</a>
+</div>
+</section>
+
+<section class="other-companies">
+<h2>شركات أخرى</h2>
+<div class="companies-links">
+<a href="company1.html"><img alt="Toyota" src="img/toyota-logo.png"/><br/>Toyota</a>
+<a href="company2.html"><img alt="Ford" src="img/ford-logo.png"/><br/>Ford</a>
+<a href="company3.html"><img alt="Mercedes" src="img/mercedes-logo.png"/> <br/>Mercedes</a>
+<a href="company5.html"><img alt="Hyundai" src="img/hyundai-logo.png"/><br/>hyundai</a>
+</div>
+</section>
+</main>
+
+<footer class="footer">
+    <!-- تذييل الصفحة -->
+    <p>© جميع الحقوق محفوظة لشركة الصقر</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
